@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+p, li, ul, select, label {
+    font-family: 'Mulish', sans-serif;
+}
+h1 {
+    text-align: center;
+    color: #405756;
+    font-size: 50px;
+    font-family: 'Paytone One', sans-serif;
+    margin: 0;
+    padding: 20px 0 40px 0;
+    background-color: rgba(124, 160, 159, 0.5);
+
+
+}
+/* font-family: 'Khula', sans-serif;
+ */
+.filters{
+    margin: 30px auto;
+    width: 88%;
+    margin: 30px auto;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.card {
+    width: 30%;
+    margin: 10px;
+    border: 3px solid #8ab8b5;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: rgba(239, 220, 240, 0.8);
+    box-shadow: 5px 7px 10px 1px rgba(0, 0, 0, 0.1);
+}
+.card > p:first-child{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#gender, #status, #species, #citizenship {
+    display: none;
+}
+img {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+select {
+    width: 250px;
+    height: 35px;
+    border: none;
+    margin-left: 20px;
+    border-radius: 5px;
+    background-color: rgba(239, 220, 240, 0.8);
+}
+ul {
+    padding: 0;
+    border: 2px solid rgba(124, 160, 159, 0.5);
+    background-color: rgba(124, 160, 159, 0.3);
+    border-radius: 5px;
+}
+li {
+    list-style-type: none;
+    margin: 10px 0 0 15px;
+    
+}

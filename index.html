@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Khula:wght@400;700&family=Mulish:wght@400;700&family=Paytone+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Film heroes</title>
+</head>
+<body>
+    <h1>Films</h1>
+    <div class="filters">
+        <label for="#categories">Choose filter:</label>
+        <select id="categories" name="select"> 
+            <option value="gender">Gender</option>
+            <option value="status">Status</option>
+            <option value="citizenship">Citizenship</option>
+        </select>
+        <select id="gender"> 
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+        <select id="status"> 
+            <option value="alive">Alive</option>
+            <option value="deceased">Deceased</option>
+        </select>
+        <select id="citizenship"> 
+            <option value="american">American</option>
+            <option value="chinese">Chinese</option>
+            <option value="wakandan">Wakandan</option>
+            <option value="soviet">Soviet</option>
+            <option value="british">British</option>
+            <option value="asgardian">Asgardian</option>
+            <option value="sokovian">Sokovian</option>
+            <option value="jotun">Jotun</option>
+            <option value="nazi German">Nazi German</option>
+        </select>
+    </div>
+    <div class="cards"></div>
+    <script src="./script.js"></script>    
+</body>
+</html>
